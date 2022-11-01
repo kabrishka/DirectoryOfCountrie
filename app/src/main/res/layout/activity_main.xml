@@ -15,10 +15,11 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Страна"
+        android:imeOptions="actionSearch"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toStartOf="@+id/search_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />>
 
     <Button
         android:id="@+id/search_button"
